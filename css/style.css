@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,27 @@ body {
 }
 
 /* Write all remaining styles here */
+p {
+	color: #555;
+}
+
+#logo, h1 {
+	font-family: "Times New Roman";
+	color: rgb(152, 173, 166);
+}
+
+#logo {
+	font-size: 4em;
+	font-style: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+img {
+	border: 5px rgb(152, 173, 166) solid;
+	margin: 0px;
+}
+
+a:hover img{
+	border-color: #000;
+}
